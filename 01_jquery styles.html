@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+ 
+
+
+<h3>Inline jquery</h3>
+
+<p onclick="$('p').hide()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, rem. Eveniet consequatur optio pariatur non dignissimos accusamus commodi? Cumque asperiores placeat tempora sapiente consequatur architecto totam unde repellendus ducimus, temporibus quisquam minus voluptatibus. Aut voluptate a unde nam earum corrupti et, adipisci numquam possimus porro ex eligendi consequatur nulla consectetur.</p>
+
+
+
+<h3>Internal jquery</h3>
+
+<p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, rem. Eveniet consequatur optio pariatur non dignissimos accusamus commodi? Cumque asperiores placeat tempora sapiente consequatur architecto totam unde repellendus ducimus, temporibus quisquam minus voluptatibus. Aut voluptate a unde nam earum corrupti et, adipisci numquam possimus porro ex eligendi consequatur nulla consectetur.</p>
+
+
+<h3>External jquery</h3>
+
+<p id="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, rem. Eveniet consequatur optio pariatur non dignissimos accusamus commodi? Cumque asperiores placeat tempora sapiente consequatur architecto totam unde repellendus ducimus, temporibus quisquam minus voluptatibus. Aut voluptate a unde nam earum corrupti et, adipisci numquam possimus porro ex eligendi consequatur nulla consectetur.</p>
+
+
+
+<script src="jquery/jquery.js"></script>
+<script src="js/app.js"></script>
+
+
+<script>
+
+$("#p1").click(function(){
+
+ $("#p1").hide();
+
+})
+
+</script>
+
+
+</body>
+</html>
